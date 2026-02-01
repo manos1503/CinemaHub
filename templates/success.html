@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #27ae60;
+            margin-top: 0;
+            font-size: 48px;
+        }
+        
+        p {
+            color: #333;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        
+        .success-message {
+            background-color: #d5f4e6;
+            color: #27ae60;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .redirect-text {
+            color: #666;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✓</h1>
+        <div class="success-message">{{ message }}</div>
+        <p>Redirecting to movies...</p>
+        <div class="redirect-text">🎬 You will be taken to movie ratings in a moment</div>
+    </div>
+    
+    <script>
+        // Auto-redirect to movies after 2 seconds
+        setTimeout(function() {
+            window.location.href = '/movies';
+        }, 2000);
+    </script>
+</body>
+</html>

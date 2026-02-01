@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ratings - Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .user-info {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .logout-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .logout-btn:hover {
+            background: #c0392b;
+        }
+        
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .filter-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #f0f0f0;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .back-button:hover {
+            background: #e0e0e0;
+        }
+        
+        .movies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .movie-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .movie-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .movie-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: white;
+            text-align: center;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .movie-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .movie-year {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .movie-content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .rating-value {
+            font-size: 32px;
+            font-weight: bold;
+            color: #667eea;
+            margin-right: 8px;
+        }
+        
+        .stars {
+            color: #ffc107;
+            font-size: 20px;
+        }
+        
+        .movie-id {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+            border-radius: 15px;
+            color: #666;
+        }
+        
+        .no-results h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .results-info {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div>
+                    <button class="back-button" onclick="history.back()">← Back</button>
+                </div>
+                <div>
+                    <span class="user-info">👤 {{ user_email }}</span>
+                </div>
+                <form method="GET" action="/logout" style="margin: 0;">
+                    <button type="submit" class="logout-btn">Logout</button>
+                </form>
+            </div>
+            
+            <h1>🎬 Movie Results</h1>
+            
+            {% if genres %}
+            <div class="filters">
+                <strong style="margin-right: 10px;">Genres:</strong>
+                {% for genre in genres %}
+                <span class="filter-tag">{{ genre }}</span>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="filters">
+                <strong style="margin-right: 10px;">Showing: All Movies</strong>
+            </div>
+            {% endif %}
+        </div>
+        
+        {% if movies %}
+        <div class="results-info">
+            Found {{ movies|length }} movie{{ 's' if movies|length != 1 else '' }}
+        </div>
+        
+        <div class="movies-grid">
+            {% for movie in movies %}
+            <div class="movie-card">
+                <div class="movie-header">
+                    <div class="movie-title">{{ movie.title }}</div>
+                    <div class="movie-year">{{ movie.year }}</div>
+                </div>
+                <div class="movie-content">
+                    <div class="rating">
+                        <span class="rating-value">{{ movie.rating }}</span>
+                        <span class="stars">★★★★★</span>
+                    </div>
+                    <div class="movie-id">#{{ movie.id }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="no-results">
+            <h2>No movies found 😢</h2>
+            <p>Try selecting different genres</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

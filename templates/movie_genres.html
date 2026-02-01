@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ratings - Select Genres</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .user-info {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .logout-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .logout-btn:hover {
+            background: #c0392b;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .genre-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .genre-option {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            transition: all 0.3s;
+            background: #f9f9f9;
+        }
+        
+        .genre-option:hover {
+            border-color: #667eea;
+            background: #f0f1ff;
+        }
+        
+        .genre-option input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+            accent-color: #667eea;
+        }
+        
+        .genre-option label {
+            flex: 1;
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-search {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-search:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-all {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        .btn-all:hover {
+            background: #e0e0e0;
+        }
+        
+        .info {
+            margin-top: 15px;
+            padding: 10px;
+            background: #e8f4fd;
+            border-left: 4px solid #667eea;
+            color: #333;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <div class="user-info">👤 {{ user_email }}</div>
+            <form method="GET" action="/logout" style="margin: 0;">
+                <button type="submit" class="logout-btn">Logout</button>
+            </form>
+        </div>
+        
+        <h1>🎬 Movie Ratings</h1>
+        <p class="subtitle">Pick a genre and compare movies 2 at a time!</p>
+        
+        <form method="POST" action="/movies/compare">
+            <div class="genre-grid">
+                {% for genre in genres %}
+                <div class="genre-option">
+                    <input type="radio" name="genre" value="{{ genre }}" id="genre_{{ loop.index }}" required>
+                    <label for="genre_{{ loop.index }}">{{ genre }}</label>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="button-group">
+                <button type="submit" class="btn-search">Start Comparing</button>
+            </div>
+            
+            <div class="info">
+                💡 Tip: Pick your favorite between 2 movies, and a new one appears to compare against!
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

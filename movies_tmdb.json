@@ -1,0 +1,1754 @@
+{
+  "Top Rated": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "rating": 8.71,
+      "year": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "rating": 8.69,
+      "year": "1972",
+      "image": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Godfather Part II",
+      "rating": 8.57,
+      "year": "1974",
+      "image": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Selena Gomez: My Mind & Me",
+      "rating": 8.57,
+      "year": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/usJxHVxT70lAA7AynnZlmPth7R3.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Schindler's List",
+      "rating": 8.57,
+      "year": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+    },
+    {
+      "id": 6,
+      "title": "12 Angry Men",
+      "rating": 8.55,
+      "year": "1957",
+      "image": "https://image.tmdb.org/t/p/w500/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Dark Knight",
+      "rating": 8.53,
+      "year": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Green Mile",
+      "rating": 8.5,
+      "year": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Lord of the Rings: The Return of the King",
+      "rating": 8.5,
+      "year": "2003",
+      "image": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Pulp Fiction",
+      "rating": 8.49,
+      "year": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Interstellar",
+      "rating": 8.47,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Forrest Gump",
+      "rating": 8.46,
+      "year": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg"
+    },
+    {
+      "id": 13,
+      "title": "GoodFellas",
+      "rating": 8.45,
+      "year": "1990",
+      "image": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Fight Club",
+      "rating": 8.44,
+      "year": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "rating": 8.4,
+      "year": "2001",
+      "image": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Psycho",
+      "rating": 8.42,
+      "year": "1960",
+      "image": "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg"
+    },
+    {
+      "id": 17,
+      "title": "One Flew Over the Cuckoo's Nest",
+      "rating": 8.41,
+      "year": "1975",
+      "image": "https://image.tmdb.org/t/p/w500/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg"
+    },
+    {
+      "id": 18,
+      "title": "The Lord of the Rings: The Two Towers",
+      "rating": 8.4,
+      "year": "2002",
+      "image": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Gabriel's Inferno",
+      "rating": 8.4,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "rating": 8.39,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Empire Strikes Back",
+      "rating": 8.39,
+      "year": "1980",
+      "image": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Once Upon a Time in America",
+      "rating": 8.39,
+      "year": "1984",
+      "image": "https://image.tmdb.org/t/p/w500/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Se7en",
+      "rating": 8.38,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+    },
+    {
+      "id": 24,
+      "title": "The Pianist",
+      "rating": 8.38,
+      "year": "2002",
+      "image": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Whiplash",
+      "rating": 8.38,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Gabriel's Inferno: Part II",
+      "rating": 8.37,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/x5o8cLZfEXMoZczTYWLrUo1P7UJ.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Inception",
+      "rating": 8.37,
+      "year": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Gabriel's Inferno: Part III",
+      "rating": 8.36,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg"
+    },
+    {
+      "id": 29,
+      "title": "The Silence of the Lambs",
+      "rating": 8.35,
+      "year": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Rear Window",
+      "rating": 8.35,
+      "year": "1954",
+      "image": "https://image.tmdb.org/t/p/w500/ILVF0eJxHMddjxeQhswFtpMtqx.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "rating": 8.33,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+    },
+    {
+      "id": 32,
+      "title": "American History X",
+      "rating": 8.33,
+      "year": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/x2drgoXYZ8484lqyDj7L1CEVR4T.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Back to the Future",
+      "rating": 8.32,
+      "year": "1985",
+      "image": "https://image.tmdb.org/t/p/w500/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg"
+    },
+    {
+      "id": 34,
+      "title": "The Wild Robot",
+      "rating": 8.31,
+      "year": "2024",
+      "image": "https://image.tmdb.org/t/p/w500/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Dead Poets Society",
+      "rating": 8.3,
+      "year": "1989",
+      "image": "https://image.tmdb.org/t/p/w500/l5NbiHKUmahlAT3Q1ig8Tyl9xrc.jpg"
+    },
+    {
+      "id": 36,
+      "title": "The Great Dictator",
+      "rating": 8.29,
+      "year": "1940",
+      "image": "https://image.tmdb.org/t/p/w500/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Sunset Boulevard",
+      "rating": 8.29,
+      "year": "1950",
+      "image": "https://image.tmdb.org/t/p/w500/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Modern Times",
+      "rating": 8.28,
+      "year": "1936",
+      "image": "https://image.tmdb.org/t/p/w500/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg"
+    },
+    {
+      "id": 39,
+      "title": "It's a Wonderful Life",
+      "rating": 8.28,
+      "year": "1946",
+      "image": "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Apocalypse Now",
+      "rating": 8.27,
+      "year": "1979",
+      "image": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Paths of Glory",
+      "rating": 8.26,
+      "year": "1957",
+      "image": "https://image.tmdb.org/t/p/w500/p7OHwomA8UOhe3EhckF2IetBTh9.jpg"
+    },
+    {
+      "id": 42,
+      "title": "City Lights",
+      "rating": 8.26,
+      "year": "1931",
+      "image": "https://image.tmdb.org/t/p/w500/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg"
+    },
+    {
+      "id": 43,
+      "title": "The Lion King",
+      "rating": 8.26,
+      "year": "1994",
+      "image": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+    },
+    {
+      "id": 44,
+      "title": "One Direction: This Is Us",
+      "rating": 8.25,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/b720e7DW3nqRJaUH9xpTtvYhnUj.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Clouds",
+      "rating": 8.24,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/d0OdD1I8qAfETvE9Rp9Voq7R8LR.jpg"
+    },
+    {
+      "id": 46,
+      "title": "Life in a Year",
+      "rating": 8.2,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/bP7u19opmHXYeTCUwGjlLldmUMc.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Avengers: Endgame",
+      "rating": 8.24,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
+    },
+    {
+      "id": 48,
+      "title": "The Matrix",
+      "rating": 8.24,
+      "year": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/p96dm7sCMn4VYAStA6siNz30G1r.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Avengers: Infinity War",
+      "rating": 8.23,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+    },
+    {
+      "id": 50,
+      "title": "Klaus",
+      "rating": 8.22,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/q125RHUDgR4gjwh1QkfYuJLYkL.jpg"
+    },
+    {
+      "id": 51,
+      "title": "Green Book",
+      "rating": 8.2,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg"
+    },
+    {
+      "id": 52,
+      "title": "Baraka",
+      "rating": 8.22,
+      "year": "1992",
+      "image": "https://image.tmdb.org/t/p/w500/ldEuJQ4z7zEvL7iXraESWBUfQcz.jpg"
+    },
+    {
+      "id": 53,
+      "title": "TAYLOR SWIFT | THE ERAS TOUR",
+      "rating": 8.2,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/jf3YO8hOqGHCupsREf5qymYq1n.jpg"
+    },
+    {
+      "id": 54,
+      "title": "Michael Jackson's Thriller",
+      "rating": 8.2,
+      "year": "1983",
+      "image": "https://image.tmdb.org/t/p/w500/dYHGoPMkZMVuBA4EydmDQMo1EEv.jpg"
+    },
+    {
+      "id": 55,
+      "title": "Five Feet Apart",
+      "rating": 8.22,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg"
+    },
+    {
+      "id": 56,
+      "title": "Saving Private Ryan",
+      "rating": 8.22,
+      "year": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Gladiator",
+      "rating": 8.22,
+      "year": "2000",
+      "image": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+    },
+    {
+      "id": 58,
+      "title": "Witness for the Prosecution",
+      "rating": 8.22,
+      "year": "1957",
+      "image": "https://image.tmdb.org/t/p/w500/bCj4EfuehAlgBwVd3diyWyhuuau.jpg"
+    },
+    {
+      "id": 59,
+      "title": "Inglourious Basterds",
+      "rating": 8.21,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+    },
+    {
+      "id": 60,
+      "title": "The Boy, the Mole, the Fox and the Horse",
+      "rating": 8.21,
+      "year": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/wAKBWRhMmBtrCCuqmFwPm2RGTph.jpg"
+    },
+    {
+      "id": 61,
+      "title": "Justice League Dark: Apokolips War",
+      "rating": 8.21,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg"
+    },
+    {
+      "id": 62,
+      "title": "The Prestige",
+      "rating": 8.21,
+      "year": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg"
+    },
+    {
+      "id": 63,
+      "title": "The Shining",
+      "rating": 8.21,
+      "year": "1980",
+      "image": "https://image.tmdb.org/t/p/w500/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg"
+    },
+    {
+      "id": 64,
+      "title": "Puss in Boots: The Last Wish",
+      "rating": 8.2,
+      "year": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/kuf6dutpsT0vSVehic3EZIqkOBt.jpg"
+    },
+    {
+      "id": 65,
+      "title": "The Help",
+      "rating": 8.2,
+      "year": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/3kmfoWWEc9Vtyuaf9v5VipRgdjx.jpg"
+    },
+    {
+      "id": 66,
+      "title": "Star Wars",
+      "rating": 8.2,
+      "year": "1977",
+      "image": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+    },
+    {
+      "id": 67,
+      "title": "Shutter Island",
+      "rating": 8.2,
+      "year": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg"
+    },
+    {
+      "id": 68,
+      "title": "Coco",
+      "rating": 8.2,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg"
+    },
+    {
+      "id": 69,
+      "title": "The Apartment",
+      "rating": 8.2,
+      "year": "1960",
+      "image": "https://image.tmdb.org/t/p/w500/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg"
+    },
+    {
+      "id": 70,
+      "title": "Wolfwalkers",
+      "rating": 8.19,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/vqGiNbdc2sDwsnivMMYzwAoSSu6.jpg"
+    },
+    {
+      "id": 71,
+      "title": "Hacksaw Ridge",
+      "rating": 8.19,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/wuz8TjCIWR2EVVMuEfBnQ1vuGS3.jpg"
+    },
+    {
+      "id": 72,
+      "title": "Doctor Who: The Day of the Doctor",
+      "rating": 8.19,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/6c0CjymaupC5xerJCemuaSV4CLj.jpg"
+    },
+    {
+      "id": 73,
+      "title": "Django Unchained",
+      "rating": 8.19,
+      "year": "2012",
+      "image": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+    },
+    {
+      "id": 74,
+      "title": "The Art of Racing in the Rain",
+      "rating": 8.18,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/mi5VN4ww0JZgRFJIaPxxTGKjUg7.jpg"
+    },
+    {
+      "id": 75,
+      "title": "A Clockwork Orange",
+      "rating": 8.18,
+      "year": "1971",
+      "image": "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg"
+    },
+    {
+      "id": 76,
+      "title": "Memento",
+      "rating": 8.18,
+      "year": "2000",
+      "image": "https://image.tmdb.org/t/p/w500/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg"
+    },
+    {
+      "id": 77,
+      "title": "The Usual Suspects",
+      "rating": 8.17,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg"
+    },
+    {
+      "id": 78,
+      "title": "Alien",
+      "rating": 8.17,
+      "year": "1979",
+      "image": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Steven Universe: The Movie",
+      "rating": 8.16,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/8mRgpubxHqnqvENK4Bei30xMDvy.jpg"
+    },
+    {
+      "id": 80,
+      "title": "The Departed",
+      "rating": 8.16,
+      "year": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+    },
+    {
+      "id": 81,
+      "title": "Top Gun: Maverick",
+      "rating": 8.16,
+      "year": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg"
+    },
+    {
+      "id": 82,
+      "title": "Good Will Hunting",
+      "rating": 8.16,
+      "year": "1997",
+      "image": "https://image.tmdb.org/t/p/w500/z2FnLKpFi1HPO7BEJxdkv6hpJSU.jpg"
+    },
+    {
+      "id": 83,
+      "title": "Scarface",
+      "rating": 8.16,
+      "year": "1983",
+      "image": "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg"
+    },
+    {
+      "id": 84,
+      "title": "Piper",
+      "rating": 8.15,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/5fu2d809jepLwEpES7wggiECLoQ.jpg"
+    },
+    {
+      "id": 85,
+      "title": "Vertigo",
+      "rating": 8.15,
+      "year": "1958",
+      "image": "https://image.tmdb.org/t/p/w500/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg"
+    },
+    {
+      "id": 86,
+      "title": "The Truman Show",
+      "rating": 8.15,
+      "year": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+    },
+    {
+      "id": 87,
+      "title": "The Kid",
+      "rating": 8.15,
+      "year": "1921",
+      "image": "https://image.tmdb.org/t/p/w500/A9NWYyn7eX0H9XIjaOvfWJ9mCGA.jpg"
+    },
+    {
+      "id": 88,
+      "title": "Casablanca",
+      "rating": 8.14,
+      "year": "1943",
+      "image": "https://image.tmdb.org/t/p/w500/lGCEKlJo2CnWydQj7aamY7s1S7Q.jpg"
+    },
+    {
+      "id": 89,
+      "title": "Singin' in the Rain",
+      "rating": 8.14,
+      "year": "1952",
+      "image": "https://image.tmdb.org/t/p/w500/w03EiJVHP8Un77boQeE7hg9DVdU.jpg"
+    },
+    {
+      "id": 90,
+      "title": "Terminator 2: Judgment Day",
+      "rating": 8.14,
+      "year": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg"
+    },
+    {
+      "id": 91,
+      "title": "Bound by Honor",
+      "rating": 8.14,
+      "year": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/gvP6R6juhe2IpCG7QGDgjyUvm0g.jpg"
+    },
+    {
+      "id": 92,
+      "title": "Togo",
+      "rating": 8.13,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/921q4gPNN4J6UxvKaw6SCNBe3F8.jpg"
+    },
+    {
+      "id": 93,
+      "title": "Dune: Part Two",
+      "rating": 8.1,
+      "year": "2024",
+      "image": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg"
+    },
+    {
+      "id": 94,
+      "title": "Palmer",
+      "rating": 8.13,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/xSDdRAjxKAGi8fUBLOqSrBhJmF0.jpg"
+    },
+    {
+      "id": 95,
+      "title": "Taxi Driver",
+      "rating": 8.13,
+      "year": "1976",
+      "image": "https://image.tmdb.org/t/p/w500/ekstpH614fwDX8DUln1a2Opz0N8.jpg"
+    },
+    {
+      "id": 96,
+      "title": "Joker",
+      "rating": 8.13,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+    },
+    {
+      "id": 97,
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "rating": 8.12,
+      "year": "1964",
+      "image": "https://image.tmdb.org/t/p/w500/6x7MzQ6BOMlRzam1StcmPO9v61g.jpg"
+    },
+    {
+      "id": 98,
+      "title": "Full Metal Jacket",
+      "rating": 8.12,
+      "year": "1987",
+      "image": "https://image.tmdb.org/t/p/w500/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg"
+    },
+    {
+      "id": 99,
+      "title": "Reservoir Dogs",
+      "rating": 8.12,
+      "year": "1992",
+      "image": "https://image.tmdb.org/t/p/w500/xi8Iu6qyTfyZVDVy60raIOYJJmk.jpg"
+    },
+    {
+      "id": 100,
+      "title": "Wonder",
+      "rating": 8.11,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/sONh3LYGFcVDTy8pm1tbSOB13Li.jpg"
+    },
+    {
+      "id": 101,
+      "title": "Senna",
+      "rating": 8.11,
+      "year": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/nZbLCbRoP6iJq5sr8daHQzjnzFh.jpg"
+    },
+    {
+      "id": 102,
+      "title": "KPop Demon Hunters",
+      "rating": 8.1,
+      "year": "2025",
+      "image": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg"
+    },
+    {
+      "id": 103,
+      "title": "WALL\u00b7E",
+      "rating": 8.11,
+      "year": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+    },
+    {
+      "id": 104,
+      "title": "Prisoners",
+      "rating": 8.1,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/jsS3a3ep2KyBVmmiwaz3LvK49b1.jpg"
+    },
+    {
+      "id": 105,
+      "title": "Double Indemnity",
+      "rating": 8.1,
+      "year": "1944",
+      "image": "https://image.tmdb.org/t/p/w500/rVNYZZgfhwqVMMWlBmxOfWqnwCj.jpg"
+    },
+    {
+      "id": 106,
+      "title": "Lock, Stock and Two Smoking Barrels",
+      "rating": 8.1,
+      "year": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/6pJB2t3MbQUy9m5pFIBHXLqnqNd.jpg"
+    },
+    {
+      "id": 107,
+      "title": "Zack Snyder's Justice League",
+      "rating": 8.1,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+    },
+    {
+      "id": 108,
+      "title": "Soul",
+      "rating": 8.1,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/6jmppcaubzLF8wkXM36ganVISCo.jpg"
+    },
+    {
+      "id": 109,
+      "title": "The Father",
+      "rating": 8.1,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/pr3bEQ517uMb5loLvjFQi8uLAsp.jpg"
+    },
+    {
+      "id": 110,
+      "title": "Call Me by Your Name",
+      "rating": 8.1,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/mZ4gBdfkhP9tvLH1DO4m4HYtiyi.jpg"
+    },
+    {
+      "id": 111,
+      "title": "Paris, Texas",
+      "rating": 8.1,
+      "year": "1984",
+      "image": "https://image.tmdb.org/t/p/w500/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg"
+    },
+    {
+      "id": 112,
+      "title": "Mortal Kombat Legends: Scorpion's Revenge",
+      "rating": 8.09,
+      "year": "2020",
+      "image": "https://image.tmdb.org/t/p/w500/iBvo3qOPcmhlqAaJcXcQHtx2qLk.jpg"
+    },
+    {
+      "id": 113,
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "rating": 8.09,
+      "year": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg"
+    },
+    {
+      "id": 114,
+      "title": "The Hate U Give",
+      "rating": 8.09,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/2icwBom0t5nmOuZI9FVXF3gkMK0.jpg"
+    },
+    {
+      "id": 115,
+      "title": "Some Like It Hot",
+      "rating": 8.09,
+      "year": "1959",
+      "image": "https://image.tmdb.org/t/p/w500/hVIKyTK13AvOGv7ICmJjK44DTzp.jpg"
+    },
+    {
+      "id": 116,
+      "title": "The Shop Around the Corner",
+      "rating": 8.09,
+      "year": "1940",
+      "image": "https://image.tmdb.org/t/p/w500/dZ1aEzGYRiqJwPfjS6VL7wUkHmF.jpg"
+    },
+    {
+      "id": 117,
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "rating": 8.1,
+      "year": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg"
+    },
+    {
+      "id": 118,
+      "title": "There Will Be Blood",
+      "rating": 8.08,
+      "year": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg"
+    },
+    {
+      "id": 119,
+      "title": "All About Eve",
+      "rating": 8.08,
+      "year": "1950",
+      "image": "https://image.tmdb.org/t/p/w500/blBzZaatPWVuWpXEnPscMA4Xp6m.jpg"
+    },
+    {
+      "id": 120,
+      "title": "Prayers for Bobby",
+      "rating": 8.1,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/1viFwXluAettogGDsTrSUUg29lZ.jpg"
+    },
+    {
+      "id": 121,
+      "title": "The Thing",
+      "rating": 8.07,
+      "year": "1982",
+      "image": "https://image.tmdb.org/t/p/w500/tzGY49kseSE9QAKk47uuDGwnSCu.jpg"
+    },
+    {
+      "id": 122,
+      "title": "Three Billboards Outside Ebbing, Missouri",
+      "rating": 8.06,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/bRYLt8fV82tdVoDppSFTZIcJiLN.jpg"
+    },
+    {
+      "id": 123,
+      "title": "Samsara",
+      "rating": 8.06,
+      "year": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/qodkea4k0pNUmNTl5TJO2PdTqgW.jpg"
+    },
+    {
+      "id": 124,
+      "title": "2001: A Space Odyssey",
+      "rating": 8.06,
+      "year": "1968",
+      "image": "https://image.tmdb.org/t/p/w500/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg"
+    },
+    {
+      "id": 125,
+      "title": "A Dog's Journey",
+      "rating": 8.1,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/wquJChp0NpoqthYdE3YjXNNxvVC.jpg"
+    },
+    {
+      "id": 126,
+      "title": "Pride & Prejudice",
+      "rating": 8.05,
+      "year": "2005",
+      "image": "https://image.tmdb.org/t/p/w500/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg"
+    },
+    {
+      "id": 127,
+      "title": "Purple Hearts",
+      "rating": 8.05,
+      "year": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/4JyNWkryifWbWXJyxcWh3pVya6N.jpg"
+    },
+    {
+      "id": 128,
+      "title": "Hidden Figures",
+      "rating": 8.05,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg"
+    },
+    {
+      "id": 129,
+      "title": "The Elephant Man",
+      "rating": 8.05,
+      "year": "1980",
+      "image": "https://image.tmdb.org/t/p/w500/u0wpPYjuSt8DIe1Y3Vapnh8jcKE.jpg"
+    },
+    {
+      "id": 130,
+      "title": "Memoir of a Snail",
+      "rating": 8.05,
+      "year": "2024",
+      "image": "https://image.tmdb.org/t/p/w500/woaN8CbloH0akyX0E72ayxlJAB4.jpg"
+    },
+    {
+      "id": 131,
+      "title": "Sherlock Jr.",
+      "rating": 8.04,
+      "year": "1924",
+      "image": "https://image.tmdb.org/t/p/w500/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg"
+    },
+    {
+      "id": 132,
+      "title": "How to Train Your Dragon: Homecoming",
+      "rating": 8.04,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/kXj2Qrfm994yLeuADqbOieU1mUH.jpg"
+    },
+    {
+      "id": 133,
+      "title": "Lion",
+      "rating": 8.04,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/iBGRbLvg6kVc7wbS8wDdVHq6otm.jpg"
+    },
+    {
+      "id": 134,
+      "title": "Oppenheimer",
+      "rating": 8.04,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    },
+    {
+      "id": 135,
+      "title": "The Grand Budapest Hotel",
+      "rating": 8.0,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
+    },
+    {
+      "id": 136,
+      "title": "Guillermo del Toro's Pinocchio",
+      "rating": 8.03,
+      "year": "2022",
+      "image": "https://image.tmdb.org/t/p/w500/vx1u0uwxdlhV2MUzj4VlcMB0N6m.jpg"
+    },
+    {
+      "id": 137,
+      "title": "Dear Zachary: A Letter to a Son About His Father",
+      "rating": 8.03,
+      "year": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/bVJCQfIfNC01CYOVkvBOtrY1cxy.jpg"
+    },
+    {
+      "id": 138,
+      "title": "Believe Me: The Abduction of Lisa McVey",
+      "rating": 8.03,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/qbJEzCzEKDHPZDiRvSSBiYEKaAH.jpg"
+    },
+    {
+      "id": 139,
+      "title": "The Wolf of Wall Street",
+      "rating": 8.03,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg"
+    },
+    {
+      "id": 140,
+      "title": "Kill Bill: The Whole Bloody Affair",
+      "rating": 8.0,
+      "year": "2011",
+      "image": "https://image.tmdb.org/t/p/w500/lRQHS8x9ofDPVx9gjq6sGAfERkf.jpg"
+    },
+    {
+      "id": 141,
+      "title": "Amadeus",
+      "rating": 8.02,
+      "year": "1984",
+      "image": "https://image.tmdb.org/t/p/w500/gQRfiyfGvr1az0quaYyMram3Aqt.jpg"
+    },
+    {
+      "id": 142,
+      "title": "The Sting",
+      "rating": 8.02,
+      "year": "1973",
+      "image": "https://image.tmdb.org/t/p/w500/ckmYng37zey8INYf6d10cVgIG93.jpg"
+    },
+    {
+      "id": 143,
+      "title": "Judgment at Nuremberg",
+      "rating": 8.01,
+      "year": "1961",
+      "image": "https://image.tmdb.org/t/p/w500/b6vYatvui1EXeFYfpDX4rcbueuP.jpg"
+    },
+    {
+      "id": 144,
+      "title": "Requiem for a Dream",
+      "rating": 8.01,
+      "year": "2000",
+      "image": "https://image.tmdb.org/t/p/w500/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg"
+    },
+    {
+      "id": 145,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "rating": 8.01,
+      "year": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
+    },
+    {
+      "id": 146,
+      "title": "Hachi: A Dog's Tale",
+      "rating": 8.01,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/lsy3aEsEfYIHdLRk4dontZ4s85h.jpg"
+    },
+    {
+      "id": 147,
+      "title": "Ford v Ferrari",
+      "rating": 8.01,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg"
+    },
+    {
+      "id": 148,
+      "title": "Flipped",
+      "rating": 8.01,
+      "year": "2010",
+      "image": "https://image.tmdb.org/t/p/w500/6zDYFigohwncqFL00MKbFV01dWb.jpg"
+    },
+    {
+      "id": 149,
+      "title": "Bo Burnham: Inside",
+      "rating": 8.01,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/ku1UvTWYvhFQbSesOD6zteY7bXT.jpg"
+    },
+    {
+      "id": 150,
+      "title": "Dial M for Murder",
+      "rating": 8.01,
+      "year": "1954",
+      "image": "https://image.tmdb.org/t/p/w500/4KKiFDvtEusJzqzlwHp7iMceXKS.jpg"
+    },
+    {
+      "id": 151,
+      "title": "American Beauty",
+      "rating": 8.0,
+      "year": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/wby9315QzVKdW9BonAefg8jGTTb.jpg"
+    },
+    {
+      "id": 152,
+      "title": "Gifted",
+      "rating": 8.0,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/9Ts7Vc4wLlpI9oox9mkVUE1tBHy.jpg"
+    },
+    {
+      "id": 153,
+      "title": "Transformers One",
+      "rating": 8.0,
+      "year": "2024",
+      "image": "https://image.tmdb.org/t/p/w500/iRCgqpdVE4wyLQvGYU3ZP7pAtUc.jpg"
+    },
+    {
+      "id": 154,
+      "title": "Won't You Be My Neighbor?",
+      "rating": 8.0,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/8qE8NZjiP2M884baH0VoLF828Vp.jpg"
+    },
+    {
+      "id": 155,
+      "title": "Song of the Sea",
+      "rating": 8.0,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/16LQC6zpqB0l74mVWb93a2oMFnX.jpg"
+    },
+    {
+      "id": 156,
+      "title": "Room",
+      "rating": 8.0,
+      "year": "2015",
+      "image": "https://image.tmdb.org/t/p/w500/2hHDMeYyZjbGWn0BeNH1cTMxuM7.jpg"
+    },
+    {
+      "id": 157,
+      "title": "Paperman",
+      "rating": 8.0,
+      "year": "2012",
+      "image": "https://image.tmdb.org/t/p/w500/9tvF744hwTm2Bn9hkDjMfEsysKz.jpg"
+    },
+    {
+      "id": 158,
+      "title": "Jojo Rabbit",
+      "rating": 8.0,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/7GsM4mtM0worCtIVeiQt28HieeN.jpg"
+    },
+    {
+      "id": 159,
+      "title": "Lawrence of Arabia",
+      "rating": 7.99,
+      "year": "1962",
+      "image": "https://image.tmdb.org/t/p/w500/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg"
+    },
+    {
+      "id": 160,
+      "title": "To Kill a Mockingbird",
+      "rating": 7.99,
+      "year": "1962",
+      "image": "https://image.tmdb.org/t/p/w500/gZycFUMLx2110dzK3nBNai7gfpM.jpg"
+    },
+    {
+      "id": 161,
+      "title": "Paris Is Burning",
+      "rating": 8.0,
+      "year": "1991",
+      "image": "https://image.tmdb.org/t/p/w500/90rCWH41mj9hjHUEy2SOHfuAOl3.jpg"
+    },
+    {
+      "id": 162,
+      "title": "Loving Vincent",
+      "rating": 7.99,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/56sq57kDm7XgyXBYrgJLumo0Jac.jpg"
+    },
+    {
+      "id": 163,
+      "title": "Casino",
+      "rating": 7.99,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/gziIkUSnYuj9ChCi8qOu2ZunpSC.jpg"
+    },
+    {
+      "id": 164,
+      "title": "The Imitation Game",
+      "rating": 7.99,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg"
+    },
+    {
+      "id": 165,
+      "title": "Gran Torino",
+      "rating": 7.99,
+      "year": "2008",
+      "image": "https://image.tmdb.org/t/p/w500/zUybYvxWdAJy5hhYovsXtHSWI1l.jpg"
+    },
+    {
+      "id": 166,
+      "title": "Barry Lyndon",
+      "rating": 7.99,
+      "year": "1975",
+      "image": "https://image.tmdb.org/t/p/w500/A0byHUHMwZ7dtBQtfZ44QIgDbjo.jpg"
+    },
+    {
+      "id": 167,
+      "title": "1917",
+      "rating": 7.99,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg"
+    },
+    {
+      "id": 168,
+      "title": "In a Heartbeat",
+      "rating": 7.98,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/wJUJROdLOtOzMixkjkx1aaZGSLl.jpg"
+    },
+    {
+      "id": 169,
+      "title": "Citizen Kane",
+      "rating": 7.98,
+      "year": "1941",
+      "image": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg"
+    },
+    {
+      "id": 170,
+      "title": "Love, Simon",
+      "rating": 7.98,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/snIsqVPmlu4LPjvToHpDotxa7Eh.jpg"
+    },
+    {
+      "id": 171,
+      "title": "The Red Shoes",
+      "rating": 7.98,
+      "year": "1948",
+      "image": "https://image.tmdb.org/t/p/w500/tRpm0MNYoMOgyumL9ePI3wB2P9V.jpg"
+    },
+    {
+      "id": 172,
+      "title": "The Deer Hunter",
+      "rating": 7.98,
+      "year": "1978",
+      "image": "https://image.tmdb.org/t/p/w500/bbGtogDZOg09bm42KIpCXUXICkh.jpg"
+    },
+    {
+      "id": 173,
+      "title": "The Gold Rush",
+      "rating": 7.98,
+      "year": "1925",
+      "image": "https://image.tmdb.org/t/p/w500/eQRFo1qwRREYwj47Yoe1PisgOle.jpg"
+    },
+    {
+      "id": 174,
+      "title": "Cruella",
+      "rating": 7.98,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/hjS9mH8KvRiGHgjk6VUZH7OT0Ng.jpg"
+    },
+    {
+      "id": 175,
+      "title": "North by Northwest",
+      "rating": 7.98,
+      "year": "1959",
+      "image": "https://image.tmdb.org/t/p/w500/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg"
+    },
+    {
+      "id": 176,
+      "title": "Catch Me If You Can",
+      "rating": 7.98,
+      "year": "2002",
+      "image": "https://image.tmdb.org/t/p/w500/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg"
+    },
+    {
+      "id": 177,
+      "title": "Before Sunrise",
+      "rating": 8.0,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/kf1Jb1c2JAOqjuzA3H4oDM263uB.jpg"
+    },
+    {
+      "id": 178,
+      "title": "Toy Story",
+      "rating": 7.97,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+    },
+    {
+      "id": 179,
+      "title": "Kill Bill: Vol. 1",
+      "rating": 7.97,
+      "year": "2003",
+      "image": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg"
+    },
+    {
+      "id": 180,
+      "title": "Sound of Freedom",
+      "rating": 7.97,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg"
+    },
+    {
+      "id": 181,
+      "title": "Jurassic Park",
+      "rating": 7.96,
+      "year": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/maFjKnJ62hDQ9E66dKqDZgbUy0H.jpg"
+    },
+    {
+      "id": 182,
+      "title": "Flamin' Hot",
+      "rating": 8.0,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/a7KyFMPXj0iY4EoLq1PIGU1WJPw.jpg"
+    },
+    {
+      "id": 183,
+      "title": "The Treasure of the Sierra Madre",
+      "rating": 7.96,
+      "year": "1948",
+      "image": "https://image.tmdb.org/t/p/w500/pWcst7zVbi8Z8W6GFrdNE7HHRxL.jpg"
+    },
+    {
+      "id": 184,
+      "title": "Bohemian Rhapsody",
+      "rating": 7.96,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg"
+    },
+    {
+      "id": 185,
+      "title": "Trainspotting",
+      "rating": 7.96,
+      "year": "1996",
+      "image": "https://image.tmdb.org/t/p/w500/y0HmDV0bZDTtXWHqqYYbT9XoshB.jpg"
+    },
+    {
+      "id": 186,
+      "title": "Up",
+      "rating": 7.96,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg"
+    },
+    {
+      "id": 187,
+      "title": "Aliens",
+      "rating": 7.96,
+      "year": "1986",
+      "image": "https://image.tmdb.org/t/p/w500/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg"
+    },
+    {
+      "id": 188,
+      "title": "Million Dollar Baby",
+      "rating": 7.95,
+      "year": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg"
+    },
+    {
+      "id": 189,
+      "title": "The Iron Giant",
+      "rating": 7.95,
+      "year": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/ct04FCFLPImNG5thcPLRnVsZlmS.jpg"
+    },
+    {
+      "id": 190,
+      "title": "How to Train Your Dragon",
+      "rating": 7.95,
+      "year": "2025",
+      "image": "https://image.tmdb.org/t/p/w500/53dsJ3oEnBhTBVMigWJ9tkA5bzJ.jpg"
+    },
+    {
+      "id": 191,
+      "title": "No Country for Old Men",
+      "rating": 7.95,
+      "year": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg"
+    },
+    {
+      "id": 192,
+      "title": "The Sixth Sense",
+      "rating": 7.95,
+      "year": "1999",
+      "image": "https://image.tmdb.org/t/p/w500/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg"
+    },
+    {
+      "id": 193,
+      "title": "The Cove",
+      "rating": 7.94,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/miodcVtQv2YxpKjjHJWcV0EDfSP.jpg"
+    },
+    {
+      "id": 194,
+      "title": "Braveheart",
+      "rating": 7.94,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/or1gBugydmjToAEq7OZY0owwFk.jpg"
+    },
+    {
+      "id": 195,
+      "title": "Pink Floyd: The Wall",
+      "rating": 7.94,
+      "year": "1982",
+      "image": "https://image.tmdb.org/t/p/w500/aElHyIdF5jmctFGhlhhaPFsbBJC.jpg"
+    },
+    {
+      "id": 196,
+      "title": "Blade Runner",
+      "rating": 7.94,
+      "year": "1982",
+      "image": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
+    },
+    {
+      "id": 197,
+      "title": "The Circus",
+      "rating": 7.94,
+      "year": "1928",
+      "image": "https://image.tmdb.org/t/p/w500/hWw9HfQmd4Rn1Et4vgZQsEf5tEZ.jpg"
+    },
+    {
+      "id": 198,
+      "title": "Rope",
+      "rating": 7.94,
+      "year": "1948",
+      "image": "https://image.tmdb.org/t/p/w500/9ar6rxLDB8kagAnXZKn6h9smscr.jpg"
+    },
+    {
+      "id": 199,
+      "title": "The Great Escape",
+      "rating": 7.93,
+      "year": "1963",
+      "image": "https://image.tmdb.org/t/p/w500/gBH4H8UMFxl139HaLz6lRuvsel8.jpg"
+    },
+    {
+      "id": 200,
+      "title": "Spider-Man: No Way Home",
+      "rating": 7.93,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
+      "id": 201,
+      "title": "12 Years a Slave",
+      "rating": 7.93,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaw1HA61rDccME4Tm.jpg"
+    },
+    {
+      "id": 202,
+      "title": "Red, White & Royal Blue",
+      "rating": 7.93,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/ta3ReqbdEcLJM3mcHMzbYFZI8v7.jpg"
+    },
+    {
+      "id": 203,
+      "title": "Guardians of the Galaxy Vol. 3",
+      "rating": 7.93,
+      "year": "2023",
+      "image": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
+    },
+    {
+      "id": 204,
+      "title": "The Avengers",
+      "rating": 7.93,
+      "year": "2012",
+      "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+    },
+    {
+      "id": 205,
+      "title": "Heat",
+      "rating": 7.93,
+      "year": "1995",
+      "image": "https://image.tmdb.org/t/p/w500/umSVjVdbVwtx5ryCA2QXL44Durm.jpg"
+    },
+    {
+      "id": 206,
+      "title": "Raiders of the Lost Ark",
+      "rating": 7.92,
+      "year": "1981",
+      "image": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
+    },
+    {
+      "id": 207,
+      "title": "Me Before You",
+      "rating": 7.92,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/Ia3dzj5LnCj1ZBdlVeJrbKJQxG.jpg"
+    },
+    {
+      "id": 208,
+      "title": "Freedom Writers",
+      "rating": 7.92,
+      "year": "2007",
+      "image": "https://image.tmdb.org/t/p/w500/81AdeUQT99N0xPg3j6RVh0YGOTk.jpg"
+    },
+    {
+      "id": 209,
+      "title": "The General",
+      "rating": 7.92,
+      "year": "1926",
+      "image": "https://image.tmdb.org/t/p/w500/2IqFPt9lHF7xLbtDw6DttXQXeet.jpg"
+    },
+    {
+      "id": 210,
+      "title": "Gone with the Wind",
+      "rating": 7.92,
+      "year": "1939",
+      "image": "https://image.tmdb.org/t/p/w500/lNz2Ow0wGCAvzckW7EOjE03KcYv.jpg"
+    },
+    {
+      "id": 211,
+      "title": "Dallas Buyers Club",
+      "rating": 7.92,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg"
+    },
+    {
+      "id": 212,
+      "title": "Batman: The Dark Knight Returns, Part 2",
+      "rating": 7.92,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/arEZYd6uMOFTILne9Ux0A8qctMe.jpg"
+    },
+    {
+      "id": 213,
+      "title": "Raging Bull",
+      "rating": 7.91,
+      "year": "1980",
+      "image": "https://image.tmdb.org/t/p/w500/1WV7WlTS8LI1L5NkCgjWT9GSW3O.jpg"
+    },
+    {
+      "id": 214,
+      "title": "Chinatown",
+      "rating": 7.91,
+      "year": "1974",
+      "image": "https://image.tmdb.org/t/p/w500/kZRSP3FmOcq0xnBulqpUQngJUXY.jpg"
+    },
+    {
+      "id": 215,
+      "title": "Free Solo",
+      "rating": 7.91,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/v4QfYZMACODlWul9doN9RxE99ag.jpg"
+    },
+    {
+      "id": 216,
+      "title": "Inside Out",
+      "rating": 7.91,
+      "year": "2015",
+      "image": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg"
+    },
+    {
+      "id": 217,
+      "title": "Limelight",
+      "rating": 7.9,
+      "year": "1952",
+      "image": "https://image.tmdb.org/t/p/w500/tDD11x3ZWCXXXwdpbGEU9uU4kh1.jpg"
+    },
+    {
+      "id": 218,
+      "title": "The Third Man",
+      "rating": 7.9,
+      "year": "1949",
+      "image": "https://image.tmdb.org/t/p/w500/rO2Fq0AZZx9obs52KJdx4mRE8p5.jpg"
+    },
+    {
+      "id": 219,
+      "title": "Unforgiven",
+      "rating": 7.91,
+      "year": "1992",
+      "image": "https://image.tmdb.org/t/p/w500/54roTwbX9fltg85zjsmrooXAs12.jpg"
+    },
+    {
+      "id": 220,
+      "title": "About Time",
+      "rating": 7.91,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/iR1bVfURbN7r1C46WHFbwCkVve.jpg"
+    },
+    {
+      "id": 221,
+      "title": "What Ever Happened to Baby Jane?",
+      "rating": 7.91,
+      "year": "1962",
+      "image": "https://image.tmdb.org/t/p/w500/msGYzyWwtjAaA3DScdgmvJ5MReG.jpg"
+    },
+    {
+      "id": 222,
+      "title": "Guardians of the Galaxy",
+      "rating": 7.91,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg"
+    },
+    {
+      "id": 223,
+      "title": "Return of the Jedi",
+      "rating": 7.9,
+      "year": "1983",
+      "image": "https://image.tmdb.org/t/p/w500/jQYlydvHm3kUix1f8prMucrplhm.jpg"
+    },
+    {
+      "id": 224,
+      "title": "Mulan",
+      "rating": 7.9,
+      "year": "1998",
+      "image": "https://image.tmdb.org/t/p/w500/jAbexAtB0aSfP5Ay4TpWHARyVnG.jpg"
+    },
+    {
+      "id": 225,
+      "title": "Titanic",
+      "rating": 7.9,
+      "year": "1997",
+      "image": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+    },
+    {
+      "id": 226,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "rating": 7.9,
+      "year": "2001",
+      "image": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+    },
+    {
+      "id": 227,
+      "title": "Coraline",
+      "rating": 7.9,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg"
+    },
+    {
+      "id": 228,
+      "title": "A Street Cat Named Bob",
+      "rating": 7.9,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/nBYG0D2FcbL1m926sIj7RN4m0sb.jpg"
+    },
+    {
+      "id": 229,
+      "title": "La La Land",
+      "rating": 7.9,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+    },
+    {
+      "id": 230,
+      "title": "CODA",
+      "rating": 7.9,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/BzVjmm8l23rPsijLiNLUzuQtyd.jpg"
+    },
+    {
+      "id": 231,
+      "title": "V for Vendetta",
+      "rating": 7.9,
+      "year": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/piZOwjyk1g51oPHonc7zaQY3WOv.jpg"
+    },
+    {
+      "id": 232,
+      "title": "Searching for Sugar Man",
+      "rating": 7.9,
+      "year": "2012",
+      "image": "https://image.tmdb.org/t/p/w500/ucM98HuBHSWmn44oiE83hIDc6VB.jpg"
+    },
+    {
+      "id": 233,
+      "title": "Nobody",
+      "rating": 7.89,
+      "year": "2021",
+      "image": "https://image.tmdb.org/t/p/w500/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg"
+    },
+    {
+      "id": 234,
+      "title": "Rebecca",
+      "rating": 7.89,
+      "year": "1940",
+      "image": "https://image.tmdb.org/t/p/w500/1qz3qUOHnVy7dL7M7G8jSErxE4b.jpg"
+    },
+    {
+      "id": 235,
+      "title": "Captain Fantastic",
+      "rating": 7.89,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/2sFME73GaD8UsUxPUKe60cPdLif.jpg"
+    },
+    {
+      "id": 236,
+      "title": "The Notebook",
+      "rating": 7.89,
+      "year": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg"
+    },
+    {
+      "id": 237,
+      "title": "Roman Holiday",
+      "rating": 7.89,
+      "year": "1953",
+      "image": "https://image.tmdb.org/t/p/w500/8lI9dmz1RH20FAqltkGelY1v4BE.jpg"
+    },
+    {
+      "id": 238,
+      "title": "Gone Girl",
+      "rating": 7.89,
+      "year": "2014",
+      "image": "https://image.tmdb.org/t/p/w500/ts996lKsxvjkO2yiYG0ht4qAicO.jpg"
+    },
+    {
+      "id": 239,
+      "title": "In the Name of the Father",
+      "rating": 7.89,
+      "year": "1993",
+      "image": "https://image.tmdb.org/t/p/w500/3NcIkKxaO2SmRVsG1v50XhtmL0f.jpg"
+    },
+    {
+      "id": 240,
+      "title": "The Pursuit of Happyness",
+      "rating": 7.89,
+      "year": "2006",
+      "image": "https://image.tmdb.org/t/p/w500/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg"
+    },
+    {
+      "id": 241,
+      "title": "Where Hands Touch",
+      "rating": 7.89,
+      "year": "2018",
+      "image": "https://image.tmdb.org/t/p/w500/omKzydOrom9kpdfQUE0G9Y9sPl0.jpg"
+    },
+    {
+      "id": 242,
+      "title": "Ben-Hur",
+      "rating": 7.89,
+      "year": "1959",
+      "image": "https://image.tmdb.org/t/p/w500/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg"
+    },
+    {
+      "id": 243,
+      "title": "Justice League: The Flashpoint Paradox",
+      "rating": 7.88,
+      "year": "2013",
+      "image": "https://image.tmdb.org/t/p/w500/hg6RYpSb3vU4i3yQDtE1YhSZNh5.jpg"
+    },
+    {
+      "id": 244,
+      "title": "Apollo 11",
+      "rating": 7.88,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/woLMRroHyoTGoXyxdEeBJEYBFtu.jpg"
+    },
+    {
+      "id": 245,
+      "title": "The Boy Who Harnessed the Wind",
+      "rating": 7.88,
+      "year": "2019",
+      "image": "https://image.tmdb.org/t/p/w500/yOr7RxHw15MMXNxGMXSmngDqHyI.jpg"
+    },
+    {
+      "id": 246,
+      "title": "On the Waterfront",
+      "rating": 7.88,
+      "year": "1954",
+      "image": "https://image.tmdb.org/t/p/w500/v1RtJ1qR4v9nrnfoBVBl6hjTW9.jpg"
+    },
+    {
+      "id": 247,
+      "title": "Kill Bill: Vol. 2",
+      "rating": 7.88,
+      "year": "2004",
+      "image": "https://image.tmdb.org/t/p/w500/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg"
+    },
+    {
+      "id": 248,
+      "title": "Mary and Max",
+      "rating": 7.88,
+      "year": "2009",
+      "image": "https://image.tmdb.org/t/p/w500/ebmsM382m9IClLUzKYY2U5biFwM.jpg"
+    },
+    {
+      "id": 249,
+      "title": "13th",
+      "rating": 7.87,
+      "year": "2016",
+      "image": "https://image.tmdb.org/t/p/w500/tcKNWD6IFPPsvkpvyZ548naz0is.jpg"
+    },
+    {
+      "id": 250,
+      "title": "The Greatest Showman",
+      "rating": 7.9,
+      "year": "2017",
+      "image": "https://image.tmdb.org/t/p/w500/b9CeobiihCx1uG1tpw8hXmpi7nm.jpg"
+    }
+  ]
+}

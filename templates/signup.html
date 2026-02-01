@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 0;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 5px rgba(102, 126, 234, 0.1);
+        }
+        
+        .password-requirements {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        
+        .requirement {
+            margin: 5px 0;
+            color: #666;
+        }
+        
+        .requirement.met {
+            color: green;
+        }
+        
+        .requirement.unmet {
+            color: red;
+        }
+        
+        .password-wrapper {
+            position: relative;
+        }
+        
+        .password-wrapper input {
+            padding-right: 40px;
+        }
+        
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 20px;
+            color: #667eea;
+            user-select: none;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #5568d3;
+        }
+        
+        .error {
+            color: #e74c3c;
+            background-color: #fadbd8;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .link a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        
+        <form method="POST" onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password1">Password:</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password1" name="password1" required oninput="checkPassword()">
+                    <span class="toggle-password" onclick="togglePassword('password1')">👁️</span>
+                </div>
+                <div class="password-requirements">
+                    <div class="requirement" id="length">✗ At least 8 characters</div>
+                    <div class="requirement" id="capital">✗ At least one capital letter</div>
+                    <div class="requirement" id="number">✗ At least one number</div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="password2">Confirm Password:</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password2" name="password2" required oninput="checkPassword()">
+                    <span class="toggle-password" onclick="togglePassword('password2')">👁️</span>
+                </div>
+            </div>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+        
+        <div class="link">
+            Already have an account? <a href="/login">Log In</a>
+        </div>
+    </div>
+    
+    <script>
+        function togglePassword(fieldId) {
+            const passwordInput = document.getElementById(fieldId);
+            const toggle = event.target;
+            
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggle.textContent = '🙈';
+            } else {
+                passwordInput.type = 'password';
+                toggle.textContent = '👁️';
+            }
+        }
+        
+        function checkPassword() {
+            const password = document.getElementById('password1').value;
+            
+            // Check length
+            const lengthCheck = document.getElementById('length');
+            if (password.length >= 8) {
+                lengthCheck.classList.add('met');
+                lengthCheck.classList.remove('unmet');
+            } else {
+                lengthCheck.classList.remove('met');
+                lengthCheck.classList.add('unmet');
+            }
+            
+            // Check capital letter
+            const capitalCheck = document.getElementById('capital');
+            if (/[A-Z]/.test(password)) {
+                capitalCheck.classList.add('met');
+                capitalCheck.classList.remove('unmet');
+            } else {
+                capitalCheck.classList.remove('met');
+                capitalCheck.classList.add('unmet');
+            }
+            
+            // Check number
+            const numberCheck = document.getElementById('number');
+            if (/\d/.test(password)) {
+                numberCheck.classList.add('met');
+                numberCheck.classList.remove('unmet');
+            } else {
+                numberCheck.classList.remove('met');
+                numberCheck.classList.add('unmet');
+            }
+        }
+        
+        function validateForm() {
+            const email = document.getElementById('email').value;
+            const password1 = document.getElementById('password1').value;
+            const password2 = document.getElementById('password2').value;
+            
+            if (!email.includes('@') || email.split('@').length !== 2 || !email.split('@')[1].includes('.')) {
+                alert('Please enter a valid email address');
+                return false;
+            }
+            
+            if (password1.length < 8) {
+                alert('Password must be at least 8 characters');
+                return false;
+            }
+            
+            if (!/[A-Z]/.test(password1)) {
+                alert('Password must contain at least one capital letter');
+                return false;
+            }
+            
+            if (!/\d/.test(password1)) {
+                alert('Password must contain at least one number');
+                return false;
+            }
+            
+            if (password1 !== password2) {
+                alert('Passwords do not match');
+                return false;
+            }
+            
+            return true;
+        }
+    </script>
+</body>
+</html>

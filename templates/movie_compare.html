@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .back-button {
+            background: #f0f0f0;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #e0e0e0;
+        }
+        
+        .header-title {
+            color: #333;
+        }
+        
+        .genre-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .user-info {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .logout-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        .logout-btn:hover {
+            background: #c0392b;
+        }
+        
+        .comparison-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        
+        .movie-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+            height: 550px;
+        }
+        
+        .movie-card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+        }
+        
+        .movie-card:active {
+            transform: translateY(-10px);
+        }
+        
+        .movie-card form {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .movie-card button {
+            height: 100%;
+            border: none;
+            background: none;
+            cursor: pointer;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+        
+        .movie-poster {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .movie-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.6), transparent);
+            padding: 40px 20px 20px 20px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .movie-title {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        
+        .movie-year {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+        
+        .rating {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        
+        .rating-value {
+            font-size: 48px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        
+        .stars {
+            color: #ffc107;
+            font-size: 24px;
+        }
+        
+        .movie-id {
+            color: #aaa;
+            font-size: 11px;
+        }
+        
+        .vs-text {
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .instruction {
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .comparison-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .movie-title {
+                font-size: 20px;
+            }
+            
+            .rating-value {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <a href="/movies" class="back-button">← Back</a>
+                <h1 class="header-title">🎬 Movie Battle</h1>
+                <span class="genre-badge">{{ genre }}</span>
+            </div>
+            <div class="header-right">
+                <span class="user-info">👤 {{ user_email }}</span>
+                <form method="GET" action="/logout" style="margin: 0;">
+                    <button type="submit" class="logout-btn">Logout</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="instruction">
+            ⭐ Which movie do you prefer?
+        </div>
+        
+        <div class="vs-text">VS</div>
+        
+        <div class="comparison-container">
+            <div class="movie-card">
+                <form method="POST" action="/movies/next-comparison">
+                    <button type="submit">
+                        <img src="{{ movie1.image }}" alt="{{ movie1.title }}" class="movie-poster">
+                        <div class="movie-overlay">
+                            <div class="movie-title">{{ movie1.title }}</div>
+                            <div class="movie-year">{{ movie1.year }}</div>
+                            <div class="rating">
+                                <span class="rating-value">{{ movie1.rating }}</span>
+                                <span class="stars">★★★★★</span>
+                            </div>
+                            <div class="movie-id">#{{ movie1.id }}</div>
+                        </div>
+                    </button>
+                    <input type="hidden" name="genre" value="{{ genre }}">
+                    <input type="hidden" name="kept_movie_id" value="{{ movie1.id }}">
+                    <input type="hidden" name="kept_side" value="left">
+                </form>
+            </div>
+            
+            <div class="movie-card">
+                <form method="POST" action="/movies/next-comparison">
+                    <button type="submit">
+                        <img src="{{ movie2.image }}" alt="{{ movie2.title }}" class="movie-poster">
+                        <div class="movie-overlay">
+                            <div class="movie-title">{{ movie2.title }}</div>
+                            <div class="movie-year">{{ movie2.year }}</div>
+                            <div class="rating">
+                                <span class="rating-value">{{ movie2.rating }}</span>
+                                <span class="stars">★★★★★</span>
+                            </div>
+                            <div class="movie-id">#{{ movie2.id }}</div>
+                        </div>
+                    </button>
+                    <input type="hidden" name="genre" value="{{ genre }}">
+                    <input type="hidden" name="kept_movie_id" value="{{ movie2.id }}">
+                    <input type="hidden" name="kept_side" value="right">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

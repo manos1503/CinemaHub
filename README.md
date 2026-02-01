@@ -1,44 +1,32 @@
-# Login Website
+# CinemaHub 🎬
 
-A web application with sign-up and login functionality with the following features:
+CinemaHub is a movie comparison web app that helps you discover movies by making quick choices.
 
-## Requirements
+You start with a **Sign Up / Log In** page. After logging in, the main app shows **two movies at a time**. You pick the movie you like more, and the movie you *didn’t* choose is replaced with a new one — so you can keep comparing nonstop.
 
-### Sign Up
-- Email must be in @mail domain
-- Password must have:
-  - Minimum 8 characters
-  - At least one capital letter
-  - At least one number
-- Password must be entered twice to verify they match
-- Upon successful signup, displays "Signed in"
+## How it works
 
-### Login
-- Must already have signed up to login
-- Upon successful login, displays "Logged in"
-- Credentials must match registered account
-
-## Setup
-
-1. Install Python dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-2. Run the application:
-   ```
-   python app.py
-   ```
-
-3. Open your browser and go to:
-   ```
-   http://localhost:5000
-   ```
+1. **Sign Up / Log In**
+   - Create an account or log into an existing one.
+2. **Compare movies**
+   - The app shows **Movie A vs Movie B**
+   - Click the movie you prefer
+3. **Continuous recommendations**
+   - The chosen movie stays
+   - The unchosen movie is replaced by another movie
+   - Repeat and keep discovering new movies
 
 ## Features
 
-- Client-side and server-side validation
-- Real-time password requirement checking
-- Session management
-- User-friendly interface
-- Error handling with helpful messages
+- Sign Up & Log In system
+- Movie-versus-movie comparison UI
+- Continuous replacement of the unchosen movie
+- Fast, simple, addictive discovery flow
+- User-friendly interface and validation
+- Session management (stays logged in during use)
+
+## Setup
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
